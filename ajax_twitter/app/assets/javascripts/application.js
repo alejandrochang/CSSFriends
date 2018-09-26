@@ -10,5 +10,7 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-//= require jquery
-//= require jquery_ujs
+const jQueryReq = require ('jquery');
+const jQueryReqUjs = require ('jquery_ujs');
+const jQuerySerial = require ('jquery.serializejson');
+const jQueryTree = require ('require_tree');
